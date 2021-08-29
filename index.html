@@ -11,7 +11,7 @@
     For more details:
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
-  <base href="/">
+  <base href="">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -31,7 +31,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '672425870';
+    var serviceWorkerVersion = '3157442501';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -77,7 +77,6 @@
               loadMainDartJs();
             }
           });
-
         // If service worker doesn't succeed in a reasonable amount of time,
         // fallback to plaint <script> tag.
         setTimeout(() => {
